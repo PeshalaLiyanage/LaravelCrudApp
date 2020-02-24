@@ -1,0 +1,49 @@
+body{
+    background:antiquewhite !important;
+    //color: aquamarine !important;
+}
+
+//h1{
+//    color: aquamarine !important;
+//}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.well{
+    background: wheat;
+    padding: 1vh;
+    width: 60%;
+    text-align: center;
+    margin: 1vh auto 1vh auto;
+}
+
+
+.text-align{
+    display: flex;
+    justify-content: center;
+}
+//.pagination{
+//    width:10%;
+//    margin: auto;
+//}
+@media screen and (max-width: 450px) {
+    .well {
+        width: 90%;
+    }
+}
+.card-header{
+    color:white;
+    background-color: rgb(52, 58, 64);
+}
